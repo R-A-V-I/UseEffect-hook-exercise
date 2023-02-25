@@ -1,0 +1,93 @@
+.form-wrapper{
+    position: relative;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    font-size: 1.5rem;
+    color: rgb(241, 216, 216);
+    font-weight: 900;
+
+}
+.form-wrapper .log-form{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid plum; */
+    height: 23rem;
+    width: 39rem;
+    border:1px solid rgb(212, 193, 145);
+    background-color: goldenrod;
+    
+    border-radius: 15px;
+    
+
+}
+.form-wrapper .log-form .userid  label{
+    /* margin-right: 71px; */
+    /* border: 1px solid purple; */
+
+}
+.form-wrapper .log-form .userid{
+    margin-bottom: 1.5rem;
+}
+
+
+.form-wrapper .log-form .userid input{
+    /* border: 1px solid purple; */
+    text-align: center;
+    font-size: 15px;
+
+    margin-left: 3.7rem;
+    border: none;
+    width: 16rem;
+    height: 2.5rem;
+    border-radius: 10px;
+}
+.form-wrapper .log-form .userpassword label{
+    margin-right: 45px;
+}
+.form-wrapper .log-form .userpassword  input{
+    /* margin-left: 40px; */
+    /* display: flex; */
+    text-align: center;
+    border: none;
+    width: 16rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.logsubmit{
+    width: 4rem;
+    height: 30px;
+    margin-right: 2rem;
+    /* background-color: blue; */
+}
+.logsubmit button{
+    color: goldenrod;
+    font-size: 1.5rem;
+    width: 7rem;
+    height: 2.5rem;
+    border: none;
+    margin-top: 2rem;
+    border-radius: 20px;
+}
+/* login shadow */
+.form-wrapper .log-form{
+    -webkit-box-shadow: 2px 4px 19px 9px rgba(237,180,9,1);
+    -moz-box-shadow: 2px 4px 19px 9px rgba(237,180,9,1);
+    box-shadow: 2px 4px 19px 9px rgba(237,180,9,1)
+}
+.logsubmit button:hover{
+    -webkit-box-shadow: 2px 3px 10px 2px rgb(255, 255, 255);
+    -moz-box-shadow: 2px 4px 10px 2px rgb(255, 255, 255);
+    box-shadow: 2px 4px 10px 2px rgb(255, 255, 255);
+    transform: translate(-2px,-2px);
+    transform: scale(1.05,1.05);
+    
+}
+
