@@ -1,10 +1,8 @@
 import React from "react"
-// import { useState } from "react";
 import './mainheader.css'
-// import IsLogIn from "./IsLogIn";
+
 
 function MainHeader(props){
-    // let[]=useState(false)
     return (<React.Fragment>
        
            <div className="header-wrapper">
@@ -23,7 +21,7 @@ function MainHeader(props){
                 </div>           
             </div>
  
-    </React.Fragment>)
-    
+    </React.Fragment>
+  )    
 }
 export default MainHeader;
